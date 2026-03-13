@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+}
+
+section {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#botao {
+    width: 10%;
+    height: 20vh;
+
+    background-color: rgb(244, 127, 197);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: rgb(50, 42, 42);
+    border-radius: 10vh;
+    border: none;
+}
+
+#botao:hover {
+    transition: 0.4s;
+    background-color: rgb(207, 166, 191);
+    border: none;
+}
+
+#gatinhogif{
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+
+    border: 15px solid;
+    border-color: rgb(252, 169, 219);
+    border-radius: 50%;
+}
